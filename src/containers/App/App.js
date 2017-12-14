@@ -1,11 +1,12 @@
-import React, { Component } from 'react';
-import styles from './styles.css';
+import React, { Component } from 'react'
+import styles from './styles.scss'
 
 export default class App extends Component {
-  render() {
+  render () {
     return (
-        <div className={styles.main}/>
-    );
+      <div className={styles.main}>
+        <div className={styles.topic} />
+      </div>
+    )
   }
 }
-

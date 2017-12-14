@@ -1,11 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 export default class Column extends Component {
-    render() {
-        return (
-            <div>
-                Column
-            </div>
-        );
-    }
+  render () {
+    return (
+      <div />
+    )
+  }
 }
